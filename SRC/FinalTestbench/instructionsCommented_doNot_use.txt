@@ -1,0 +1,78 @@
+// LOAD INSTRUCTIONS
+
+//load register1
+
+100111111111111111100001 //load X"FFFF" into register1's least 			  							 significant nibble 
+101000000000000000000001 //load X"0000" into register1's 2nd least 
+						   significant nibble
+110010101010101010100001 //load X"5555" into register1's 3rd least 								   significant nibble
+111101010101010101000001 //load X"AAAA" into register1's most 									   significant nibble
+
+//load register2
+100111111111111111100010
+101000000000000000000010
+110010101010101010100010
+111101010101010101000010 //load r2 with X"AAAA55550000FFFF"
+
+//load register3
+100111111111111111100011
+101000000000000000000011
+110010101010101010100011
+111101010101010101000011 //load r3 with X"AAAA55550000FFFF"
+
+//load register4
+100000100100011010000100
+101000000000000000100100
+110000100010001000100100
+111000100010001000100100 //load r4 with X"1111111100011234"
+
+//load register5
+100000100100011010100101
+101000000000000000100101
+110000100010001000100101
+111000100010001000100101 //load r5 with X"1111111100011235"
+
+100000100100011010100110
+101000000000000000100110
+110000100010001000100110
+111000100010001001000110 //load r6 with X"1112111100011235"
+
+// END LOAD INSTRUCTIONS
+
+
+// MA/MS/l/h INSTRUCTIONS BEGIN
+
+010000100000110001000001 //signed integer multiple-add low with 								   saturation rs3 <= r4, rs2 <= r3, rs1 <= r2, 						   rd <= r1
+010100100000110001000001 //signed integer multiple-add high with 								   saturation rs3 <= r4, rs2 <= r3, rs1 <= r2, 						       rd <= r1
+011000110001010010000101 //signed integer multiple-subtract low with 							   saturation rs3 <= r6, rs2 <= r5, rs1 <= r4, 						       rd <= r5
+011100110001010010000010 //signed integer multiple-subtract high with 							   saturation rs3 <= r6, rs2 <= r5, rs1 <= r4, 						       rd <= r2
+// END MA/MS/l/h INSTRUCTIONS
+
+/* NOT INSTRUCTIONS (FOR FILLING IN INST'S)
+00001000100001100100 //r1r2r3r4
+00010000110000100101 //r2r3r1r5
+00110001000001000001 //r6r4r2r1
+00101001100010000010 //r5r6r4r2
+00100001100001000011 //r4r6r2r3
+*/
+
+// R3 INSTRUCTIONS BEGIN
+
+000000000000010001000011 //NOP with rs2 <= r1, rs1 <= r2, and rd <= r3
+000000001000010001000101 //BCW with rs2 <= r1, rs1 <= r2, and rd <= r5
+000000010001100001000011 //AND with rs2 <= r6, rs1 <= r2, and rd <= r3
+000000011000100001100100 //OR with rs2 <= r2, rs1 <= r3, and rd <= r4
+000000100000010001000011 //POPCNTH with rs2 <= r1, rs1 <= r2, and rd <= 						   r3
+000000101001000001000001 //CLZ with rs2 <= r4, rs1 <= r2, and rd <= r1
+000000110000110000100101 //ROT with rs2 <= r3, rs1 <= r1, and rd <= r5
+000000111000110010100010 //SHLHI with rs2 <= r3, rs1 <= r5, and rd <= r2
+000001000001100001000011 //A with rs2 <= r6, rs1 <= r2, and rd <= r3
+000001001001100010000010 //SFW with rs2 <= r6, rs1 <= r4, and rd <= r2
+000001010001010010000110 //AH with rs2 <= r5, rs1 <= r4, and rd <= r6
+000001011001000011000010 //SFH with rs2 <= r4, rs1 <= r6, and rd <= r2
+000001100000110000100101 //AHS with rs2 <= r3, rs1 <= r1, and rd <= r5
+000001101001100000100010 //SFHS with rs2 <= r6, rs1 <= r1, and rd <= r2
+000001110001010001100100 //MPYU with rs2 <= r5, rs1 <= r3, and rd <= r4
+000001111001100001000011 //ABSDB with rs2 <= r6, rs1 <= r2, and rd <= r3
+
+

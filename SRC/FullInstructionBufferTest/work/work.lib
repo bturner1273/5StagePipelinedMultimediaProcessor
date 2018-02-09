@@ -1,0 +1,72 @@
+timestamp=1518193981040
+
+[~A]
+ModifyID=22
+Version=73
+
+[fullinstructionbuffer]
+A/behavioral=21|./../design.vhd|12|1*5307
+I=0*5438
+I/behavioral=0*6510
+M=11|1|vc1|1518193981020|./../design.vhd|0*5037*0x3d1123c2c3d02cfaaad2c1e06a82a9ed93a9a0b1|0*5350*0x618c75ed5eb2ee20373c1f3310fc85bb
+M/behavioral=21|1|vc1|1518193981023|./../design.vhd|0*5553*0x103fa8cc24ddef1634fbee47c543c86f27235df0|0*6408*0x5ab63b4931a3fe70953a1928a063edc1
+R=./../design.vhd|5
+Version=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+Version/behavioral=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+
+[instructionaddress]
+A/instruction_address_arch=21|./../InstructionAddress.vhd|14|1*0
+BinL64/instruction_address_arch=3*0
+I=0*774
+I/instruction_address_arch=0*1378
+M=11|1|vc1|1518193980954|./../InstructionAddress.vhd|0*299*0x170ff5d0411dd7057e3a6777ddf536292cab8db2|0*677*0x618c75ed5eb2ee20373c1f3310fc85bb
+M/instruction_address_arch=21|1|vc1|1518193980956|./../InstructionAddress.vhd|0*886*0x5d0c0a9fe1a21fe4c52e9a87b8dd6f05facbc3fe|0*1253*0x5ab63b4931a3fe70953a1928a063edc1
+R=./../InstructionAddress.vhd|4
+Version=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+Version/instruction_address_arch=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+
+[instructionbuffer]
+A/instructionbuffer_arch=A/instructionBuffer_arch 21|./../InstructionBuffer.vhd|16|1*1501
+BinL64/instructionbuffer_arch=3*617
+I=0*2130
+I/instructionbuffer_arch=I/instructionBuffer_arch 0*3212
+M=11|1|vc1|1518193980977|./../InstructionBuffer.vhd|0*1716*0xcc872e9ebddc8ee258b7077035d83445db80a9ee|0*2035*0x618c75ed5eb2ee20373c1f3310fc85bb
+M/instructionbuffer_arch=M/instructionBuffer_arch 21|1|vc1|1518193980980|./../InstructionBuffer.vhd|0*2358*0x7ff7ed7d6960b9c112ccf20c88aeb8a7d34150dd|0*3091*0x5ab63b4931a3fe70953a1928a063edc1
+R=./../InstructionBuffer.vhd|7
+Version=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+Version/instructionbuffer_arch=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+
+[programcounter]
+A/programcounter_arch=A/programCounter_arch 21|./../programCounter.vhd|11|1*3867
+BinL64/programcounter_arch=3*1365
+I=0*4022
+I/programcounter_arch=I/programCounter_arch 0*4580
+M=11|1|vc1|1518193981004|./../programCounter.vhd|0*3651*0xea3f90e3d3ee2164565949eba5937b5bdf8691f5|0*3933*0x618c75ed5eb2ee20373c1f3310fc85bb
+M/programcounter_arch=M/programCounter_arch 21|1|vc1|1518193981006|./../programCounter.vhd|0*4192*0xd2f14f361d1b9cf2495427df5dfcb3a584d12465|0*4468*0x5ab63b4931a3fe70953a1928a063edc1
+R=./../programCounter.vhd|5
+Version=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+Version/programcounter_arch=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+
+[testbench]
+A/tb=21|./../testbench.vhd|10|1*9096
+BinL64/tb=3*1704
+I=0*7136
+I/tb=0*8023
+M=11|1|vc1|1518193981027|./../testbench.vhd|0*6900*0xe6a9ea914f226e18ec232c6879f87fe39ba7e7dd|0*7057*0x618c75ed5eb2ee20373c1f3310fc85bb
+M/tb=21|1|vc1|1518193981029|./../testbench.vhd|0*7239*0xca44b85fd7ebc06b6b3c9b898f82714dfc298e23|0*7938*0x5ab63b4931a3fe70953a1928a063edc1
+R=./../testbench.vhd|5
+Version=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+Version/tb=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+
+[~MFT]
+0=34|0work.mgf|8023|0
+1=4|1work.mgf|9096|0
+3=3|3work.mgf|1704|0
+
+[~U]
+fullinstructionbuffer=FullInstructionBuffer 11|0*4770|
+instructionaddress=instructionAddress 11|0*0|
+instructionbuffer=instructionBuffer 11|0*1515|
+programcounter=programCounter 11|0*3463|
+testbench=11|0*6827|
+

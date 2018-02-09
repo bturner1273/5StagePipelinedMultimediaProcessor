@@ -1,0 +1,37 @@
+timestamp=1518194074154
+
+[~A]
+ModifyID=10
+Version=73
+
+[idex]
+A/behavioral=21|./../design.vhd|30|1*0
+BinL64/behavioral=3*0
+I=0*2048
+I/behavioral=0*2914
+M=11|1|vc1|1518194074116|./../design.vhd|0*1040*0x2ee839b8e66d7f39e68fd266aaf5e1e23223d58b|0*1977*0x618c75ed5eb2ee20373c1f3310fc85bb
+M/behavioral=21|1|vc1|1518194074118|./../design.vhd|0*2146*0xbfe1cffa64741a1dee9a0ac38c5195368009b9e3|0*2829*0x5ab63b4931a3fe70953a1928a063edc1
+R=./../design.vhd|5
+Version=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+Version/behavioral=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+
+[testbench]
+A/tb=21|./../testbench.vhd|9|1*4794
+BinL64/tb=3*1151
+I=0*3332
+I/tb=0*6553
+M=11|1|vc1|1518194074136|./../testbench.vhd|0*3096*0xe6a9ea914f226e18ec232c6879f87fe39ba7e7dd|0*3253*0x618c75ed5eb2ee20373c1f3310fc85bb
+M/tb=21|1|vc1|1518194074138|./../testbench.vhd|0*3435*0x9e2f3890f61b5f418c6fc471c8beafda0d772955|0*6468*0x5ab63b4931a3fe70953a1928a063edc1
+R=./../testbench.vhd|5
+Version=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+Version/tb=2014.06.88 (Linux64)|00000006789c53d0353230b0000003970118
+
+[~MFT]
+0=13|0work.mgf|6553|0
+1=1|1work.mgf|4794|0
+3=1|3work.mgf|1151|0
+
+[~U]
+idex=IdEx 11|0*0|
+testbench=11|0*3023|
+

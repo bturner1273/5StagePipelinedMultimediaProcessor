@@ -1,0 +1,352 @@
+Clock Cycle: 1
+IF/ID
+Instruction: 9FFFE1      Type: R1
+ 
+ID/EX
+Type: R1   li location: 00    imm: FFFF
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 2
+IF/ID
+Instruction: A00001      Type: R1
+ 
+ID/EX
+Type: R1   li location: 00    imm: FFFF
+ 
+EX/WB
+Type: R1   li location: 0   imm: FFFF
+ 
+ 
+Clock Cycle: 3
+IF/ID
+Instruction: CAAAA1      Type: R1
+ 
+ID/EX
+Type: R1   li location: 01    imm: 0000
+ 
+EX/WB
+Type: R1   li location: 0   imm: FFFF
+ 
+ 
+Clock Cycle: 4
+IF/ID
+Instruction: F55541      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: R1   li location: 1   imm: 0000
+ 
+ 
+Clock Cycle: 5
+IF/ID
+Instruction: 9FFFE2      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 6
+IF/ID
+Instruction: A00002      Type: R1
+ 
+ID/EX
+Type: R1   li location: 00    imm: FFFF
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 7
+IF/ID
+Instruction: CAAAA2      Type: R1
+ 
+ID/EX
+Type: R1   li location: 01    imm: 0000
+ 
+EX/WB
+Type: R1   li location: 0   imm: FFFF
+ 
+ 
+Clock Cycle: 8
+IF/ID
+Instruction: F55542      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: R1   li location: 1   imm: 0000
+ 
+ 
+Clock Cycle: 9
+IF/ID
+Instruction: 9FFFE3      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 10
+IF/ID
+Instruction: A00003      Type: R1
+ 
+ID/EX
+Type: R1   li location: 00    imm: FFFF
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 11
+IF/ID
+Instruction: CAAAA3      Type: R1
+ 
+ID/EX
+Type: R1   li location: 01    imm: 0000
+ 
+EX/WB
+Type: R1   li location: 0   imm: FFFF
+ 
+ 
+Clock Cycle: 12
+IF/ID
+Instruction: F55543      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: R1   li location: 1   imm: 0000
+ 
+ 
+Clock Cycle: 13
+IF/ID
+Instruction: 824684      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 14
+IF/ID
+Instruction: A00024      Type: R1
+ 
+ID/EX
+Type: R1   li location: 00    imm: 1234
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 15
+IF/ID
+Instruction: C22224      Type: R1
+ 
+ID/EX
+Type: R1   li location: 01    imm: 0001
+ 
+EX/WB
+Type: R1   li location: 0   imm: 1234
+ 
+ 
+Clock Cycle: 16
+IF/ID
+Instruction: E22224      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: R1   li location: 1   imm: 0001
+ 
+ 
+Clock Cycle: 17
+IF/ID
+Instruction: 8246A5      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 18
+IF/ID
+Instruction: A00025      Type: R1
+ 
+ID/EX
+Type: R1   li location: 00    imm: 1235
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 19
+IF/ID
+Instruction: C22225      Type: R1
+ 
+ID/EX
+Type: R1   li location: 01    imm: 0001
+ 
+EX/WB
+Type: R1   li location: 0   imm: 1235
+ 
+ 
+Clock Cycle: 20
+IF/ID
+Instruction: E22225      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: R1   li location: 1   imm: 0001
+ 
+ 
+Clock Cycle: 21
+IF/ID
+Instruction: 8246A6      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 22
+IF/ID
+Instruction: A00026      Type: R1
+ 
+ID/EX
+Type: R1   li location: 00    imm: 1235
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 23
+IF/ID
+Instruction: C22226      Type: R1
+ 
+ID/EX
+Type: R1   li location: 01    imm: 0001
+ 
+EX/WB
+Type: R1   li location: 0   imm: 1235
+ 
+ 
+Clock Cycle: 24
+IF/ID
+Instruction: E22246      Type: R1
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: R1   li location: 1   imm: 0001
+ 
+ 
+Clock Cycle: 25
+IF/ID
+Instruction: 420C41      Type: R4
+ 
+ID/EX
+Type: UU
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 26
+IF/ID
+Instruction: 520C41      Type: R4
+ 
+ID/EX
+Type: R4   MAMS: 00    rs1_addr: 02   rs2_addr: 03   rs3_addr: 04   rd_addr: 01
+ 
+EX/WB
+Type: UU
+ 
+ 
+Clock Cycle: 27
+IF/ID
+Instruction: 631485      Type: R4
+ 
+ID/EX
+Type: R4   MAMS: 01    rs1_addr: 02   rs2_addr: 03   rs3_addr: 04   rd_addr: 01
+ 
+EX/WB
+Type: R4 MAMS: 0   rs1_data: uuuuuuuu0000FFFF  rs2_data: uuuuuuuu0000FFFF  rs3_data: uuuuuuuu00011234  rd_addr: 01
+ 
+ 
+Clock Cycle: 28
+IF/ID
+Instruction: 731482      Type: R4
+ 
+ID/EX
+Type: R4   MAMS: 10    rs1_addr: 04   rs2_addr: 05   rs3_addr: 06   rd_addr: 05
+ 
+EX/WB
+Type: R4 MAMS: 1   rs1_data: uuuuuuuu0000FFFF  rs2_data: uuuuuuuu0000FFFF  rs3_data: uuuuuuuu00011234  rd_addr: 05
+ 
+ 
+Clock Cycle: 29
+IF/ID
+Instruction: 000443      Type: R3
+ 
+ID/EX
+Type: R4   MAMS: 11    rs1_addr: 04   rs2_addr: 05   rs3_addr: 06   rd_addr: 02
+ 
+EX/WB
+Type: R4 MAMS: 2   rs1_data: uuuuuuuu00011234  rs2_data: xxxxxxxx0000FFFF  rs3_data: uuuuuuuu00011235  rd_addr: 02
+ 
+ 
+Clock Cycle: 30
+IF/ID
+Instruction: 008445      Type: R3
+ 
+ID/EX
+Type: R3   Opcode: nop         rs1_addr: 02    rs2_addr: 01     rd_addr: 03
+ 
+EX/WB
+Type: R4 MAMS: 3   rs1_data: uuuuuuuu00011234  rs2_data: xxxxxxxx00012469  rs3_data: xxxxxxxx00012469  rd_addr: 03
+ 
+ 
+Clock Cycle: 31
+IF/ID
+Instruction: 011843      Type: R3
+ 
+ID/EX
+Type: R3   Opcode: bcw         rs1_addr: 02    rs2_addr: 01     rd_addr: 05
+ 
+EX/WB
+Type: R3   Opcode: nop        rs1_data: xxxxxxxx00011233   rs2_data: xxxxxxxx0000EDCB  rd_addr: 03   ALU_out: xxxxxxxx00011233
+ 
+ 
+Clock Cycle: 32
+IF/ID
+Instruction: 018864      Type: R3
+ 
+ID/EX
+Type: R3   Opcode: and         rs1_addr: 02    rs2_addr: 06     rd_addr: 03
+ 
+EX/WB
+Type: R3   Opcode: bcw        rs1_data: xxxxxxxx00012469   rs2_data: xxxxxxxx0000EDCB  rd_addr: 05   ALU_out: 0001246900012469
+ 
+ 

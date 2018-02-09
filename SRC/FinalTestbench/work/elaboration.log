@@ -1,0 +1,47 @@
+Riviera-PRO 2015.06.92.5791(Linux64) 2018-02-09 16:28:34
+
+Elaboration top modules:
+Architecture                  tb(testbench)
+
+
+---------------------------------------------------------------------------------------------------------------
+Entity                | Architecture             | Library | Info | Compiler Version     | Compilation Options
+---------------------------------------------------------------------------------------------------------------
+testbench             | tb                       | work    |      | 2015.06.92 (Linux64) |  -2008
+Processor             | structural               | work    |      | 2015.06.92 (Linux64) |  -2008
+FullInstructionBuffer | behavioral               | work    |      | 2015.06.92 (Linux64) |  -2008
+IfId                  | behavioral               | work    |      | 2015.06.92 (Linux64) |  -2008
+Control               | behavioral               | work    |      | 2015.06.92 (Linux64) |  -2008
+RegisterFile          | behavioral               | work    |      | 2015.06.92 (Linux64) |  -2008
+IdEx                  | behavioral               | work    |      | 2015.06.92 (Linux64) |  -2008
+DataForwarding        | behavioral               | work    |      | 2015.06.92 (Linux64) |  -2008
+alu                   | alu_arch                 | work    |      | 2015.06.92 (Linux64) |  -2008
+programCounter        | programCounter_arch      | work    |      | 2015.06.92 (Linux64) |  -2008
+instructionAddress    | instruction_address_arch | work    |      | 2015.06.92 (Linux64) |  -2008
+instructionBuffer     | instructionBuffer_arch   | work    |      | 2015.06.92 (Linux64) |  -2008
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+VHDL Package                                     | Library | Info | Compiler Version     | Compilation Options
+---------------------------------------------------------------------------------------------------------------
+standard                                         | std     |      |                      | <unavailable>
+TEXTIO                                           | std     |      | 2015.06.92 (Linux64) |  -2008
+std_logic_1164                                   | ieee    |      | 2015.06.92 (Linux64) |  -2008
+txt_util                                         | work    |      | 2015.06.92 (Linux64) |  -2008
+NUMERIC_STD                                      | ieee    |      | 2015.06.92 (Linux64) |  -2008
+---------------------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------
+Library                                          | Comment
+---------------------------------------------------------------------------------------------------------------
+ieee                                             | Standard IEEE packages library
+std                                              | Standard VHDL library
+work                                             | None
+---------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim testbench
+
+License to run VHDL performance optimized simulation unavailable.
+
+The performance of simulation is reduced. Version EDU Edition
